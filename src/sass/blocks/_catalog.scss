@@ -15,7 +15,7 @@
         border: 2px solid #d0d0d0;
         color: #6b6b6b;
         font-size: 18px;
-        font-weight: 800;
+        font-weight: 400;
         text-transform: uppercase;
         text-align: center;
         line-height: 48px;              //выравниваем текс по центру блока
@@ -41,7 +41,7 @@
         display: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        &:active {
+        &_active {
             display: flex;
         }
     }
