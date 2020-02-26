@@ -29,4 +29,12 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animated {
+            animation: heardbeat 1.5s ease infinite paused;
+        }
+        &:hover {
+            animation-play-state: running;
+        }
+    }
 }
